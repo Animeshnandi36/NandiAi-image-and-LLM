@@ -1,0 +1,16 @@
+packages:
+  # workspace packages are listed here for pnpm to discover them
+  - 'artifacts/*'
+  - 'lib/*'
+  - 'scripts'
+
+shared-workspace:
+  packages:
+    - 'artifacts/*'
+
+hooks:
+  read-package: |
+    # custom workspace hooks if any
+
+
+# pnpm workspace configuration
